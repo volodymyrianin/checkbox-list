@@ -1,0 +1,99 @@
+*{transition: all .1s ease-in;}
+body {
+	margin: 0;
+	padding: 0;
+
+}
+.screen {
+	height: 98vh;
+	min-height: 98vh;
+	background-color: #3B3F45;
+	border: 1vh solid white;
+}
+.title1, .title3, .title3-1 {
+	margin: 0;
+	padding: 0;
+}
+.header, .foot {
+	color: #EB7E7F;
+	background-color: #4A4F56;
+}
+.header, .container {
+	
+	margin: auto;
+}
+.container {
+background-color: #3B3F45;
+}
+.section1 {
+	width: 640px;
+	margin: auto;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+
+}
+.title1, .title3, .title3-1, .foot {
+	text-align: center;
+}
+.title1{
+	padding-top: 40px;
+}
+.title3	{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.title3-1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.foot {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+
+}
+.list1 {
+	color: white;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+}
+.list1 li{
+	display:block;
+	color: white;
+}
+.list1 li:nth-child(odd){
+	background-color: #7A7593;
+}
+.list1 li:nth-child(even){
+	background-color: #88839E;
+}
+.text1{
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 15px;
+}
+.text2{
+	font-size: 18px;
+}
+.list-element {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.list-element:hover{
+	background-color: #625E77;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+.list-element:active{
+	background-color: white;
+	color: black;
+}
+input[type="checkbox"]:checked ~ span{
+	text-decoration: line-through;
+}
